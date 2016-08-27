@@ -1,0 +1,25 @@
+{
+  "name": "fx_rates",
+  "version": "1.0.0",
+  "description": "Coverts fx rates using the open exchange api",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-open": "^2.0.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fx"
+  ],
+  "author": "meads",
+  "license": "ISC"
+}
