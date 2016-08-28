@@ -1,19 +1,7 @@
-"use strict";
-
+$ = jQuery = require('jquery'); //bootstrap expects jQuery to be in the global namespace
 var React = require('react');
-var ReactDOM = require('react-dom');
+var ReactDom = require('react-dom');
+var Home = require('./components/homePage');
 
-// tutorial1.js
-var CommentBox = React.createClass({
-  render: function() {
-    return (
-      <div className="commentBox">
-        Hello, world! I am a CommentBox.
-      </div>
-    );
-  }
-});
-ReactDOM.render(
-  <CommentBox />,
-  document.getElementById('content')
-);
+
+ReactDom.render(< Home />, document.getElementById('app'))

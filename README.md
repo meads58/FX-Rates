@@ -12,4 +12,4 @@ Gulp is used to run the build tasks and to run tests
 `npm build`
 
 ##Tests
-`npm test'
+`npm test`
